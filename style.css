@@ -1,27 +1,93 @@
 html{
     scroll-behavior: smooth;
+    color: white;
 }
 body{
-    background-color: #1d1d1e;
-    background-image: url("images/612BzN2f6rL.jpg");
+    background-color: #000000;
+    /* background-image: url("images/ChatGPT\ Image\ Dec\ 21\,\ 2025\,\ 12_54_15\ PM.png");
     background-size: cover;
     background-attachment: fixed;
-    /* opacity: 0.7; */
+    opacity: 0.7; */
 }
 
-#about-us{
-    height: 500px;
+#game-name{
+    /* height: 1000px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
 }
-#services{
-    height:1000px
+#escape{
+    height:1000px;
+}
+#maps{
+    height:1000px;
 }
 .navbar{
     width: 100%;
     height:50px;
-    background-color: aqua;
+    border: 100px;
+    background-color: rgb(128, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    font-family: "Mountains of Christmas", cursive;
+}
+video{
+    border: 10px;
+}
+.navbar1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size:xx-large;
+}
+.font{
+    font-family: "Mountains of Christmas", cursive;
+    text-align: center;
     color: red;
 }
-/* img {
-  max-width: 100%;
-  height: auto;
-} */
+span{
+    color: red;
+    font-weight: bolder;
+}
+.met-the-man{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 50px;
+}
+.withchild{
+    grid-row: span 2;
+    padding:10px;
+    align-content:center;
+    text-align:center;
+}
+.story{
+    padding:10px;
+    align-content:center;
+    text-align:center;
+}
+.conclu{
+    padding:10px;
+    align-content:center;
+    text-align:center;
+    font-family: "Mountains of Christmas", cursive;
+    font-size:xx-large;
+}
+.psycho{
+    opacity: 0.4;
+}
+.maps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.indiphoto{
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: center;
+    align-content:center;
+    text-align:center;
+}

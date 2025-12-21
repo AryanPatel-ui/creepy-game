@@ -1,0 +1,95 @@
+.maps{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+.darkforest{
+    height: 267px;
+    transition: all 1s ease-in-out;
+}
+.darkforest p{
+    opacity: 0;
+}
+.memorycorridor{
+    height: 267px;
+    transition: all 1s ease-in-out;
+}
+.memorycorridor p{
+    opacity: 0;
+}
+.oldchurch{
+    height: 267px;
+    transition: all 1s ease-in-out;
+}
+.oldchurch p{
+    opacity: 0;
+}
+.abandonedfactory{
+    height: 267px;
+    transition: all 1s ease-in-out;
+}
+.abandonedfactory p{
+    opacity: 0;
+}
+.ritualgrounds{
+    height: 267px;
+    transition: all 1s ease-in-out;
+}
+.ritualgrounds p{
+    opacity: 0;
+}
+.lighthouse{
+    height: 267px;
+    transition: all 1s ease-in-out;
+}
+.lighthouse p{
+    opacity: 0;
+}
+
+/* this is a seperation comment */
+
+.darkforest:hover{
+    height: 500px;
+    transform: scale(1.1);
+}
+.darkforest:hover p{
+    opacity: 1;
+}
+.memorycorridor:hover{
+    height: 500px;
+    transform: scale(1.1);
+}
+.memorycorridor:hover p{
+    opacity: 1;
+}
+.oldchurch:hover{
+    height: 500px;
+    transform: scale(1.1);
+}
+.oldchurch:hover p{
+    opacity: 1;
+}
+.abandonedfactory:hover{
+    height: 500px;
+    transform: scale(1.1);
+}
+.abandonedfactory:hover p{
+    opacity: 1;
+}
+.ritualgrounds:hover{
+    height: 500px;
+    transform: scale(1.1);
+}
+.ritualgrounds:hover p{
+    opacity: 1;
+}
+.lighthouse:hover{
+    height: 500px;
+    transform: scale(1.1);
+}
+.lighthouse:hover p{
+    opacity: 1;
+}
