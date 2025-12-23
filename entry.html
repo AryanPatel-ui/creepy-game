@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            min-height: 100vh;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        h1:hover{
+            color: maroon;
+            text-decoration: underline;
+        }
+        button:hover{
+            transform: scale(1.2);
+        }
+        .body1 {
+            display: inline-block;
+            text-align: center;
+            animation: float 5s linear infinite;
+            font-family: "Mountains of Christmas", cursive;
+        }
+
+        @keyframes float {
+            0%{ 
+                transform: translate(0); 
+            }
+            20%{
+                transform: translate(0px, 6px);
+            }
+            40%{ 
+                transform: translate(0px, -6px);
+            }
+            60%{
+                transform: translate(0px, 6px); 
+            }
+            80%{ 
+                transform: translate(0px, -6px); 
+            }
+            100%{ 
+                transform: translate(0); 
+            }
+        }
+        .button1{
+            background-image: url("images/abdb187a-3b88-47d2-94bf-9f48a017d452.png");
+            width: 200px;
+            height: 50px;
+            font-size: large;
+            font-family: "Mountains of Christmas", cursive;
+        }
+    </style>
+</head>
+<body>
+    <div class="body1">
+        <h1>HAVE YOU MET HIM?</h1>
+        <h1>JUST BE CAREFUL AND HE WATCHES YOUR EVERY STEP</h1>
+        <h1>HE KNOWS YOU ARE HERE</h1>
+        <a href="index.html"><button class="button1"><span>ARE YOU READY</span></button></a>
+    </div>
+</body>
+</html>

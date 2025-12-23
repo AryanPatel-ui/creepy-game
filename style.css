@@ -3,12 +3,13 @@ html{
     color: white;
 }
 body{
-    background-color: #000000;
-    /* background-image: url("images/ChatGPT\ Image\ Dec\ 21\,\ 2025\,\ 12_54_15\ PM.png");
+    background-color: rgb(0, 0, 0);
+    background-image: url("images/abdb187a-3b88-47d2-94bf-9f48a017d452.png");
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.7; */
+    /* opacity: 0.7; */
 }
+
 
 #game-name{
     /* height: 1000px; */
@@ -18,11 +19,29 @@ body{
     margin: 10px;
 
 }
-#escape{
-    height:1000px;
+.darkforest:hover{
+    /* border: 1px solid red; */
+    transform: translateY(-20px);
 }
-#maps{
-    height:1000px;
+.memorycorridor:hover{
+    /* border: 1px solid red; */
+    transform: translateY(-20px);
+}
+.oldchurch:hover{
+    /* height: 500px; */
+    transform: translateY(-20px);
+}
+.abandonedfactory:hover{
+    /* height: 500px; */
+    transform: translateY(-20px);
+}
+.ritualgrounds:hover{
+    /* height: 500px; */
+    transform: translateY(-20px);
+}
+.lighthouse:hover{
+    /* height: 500px; */
+    transform: translateY(-20px);
 }
 .navbar{
     width: 100%;
@@ -34,7 +53,8 @@ body{
     font-family: "Mountains of Christmas", cursive;
 }
 video{
-    border: 10px;
+width: 100%;
+z-index: -2;
 }
 .navbar1{
     color: rgb(255, 255, 255);
@@ -60,6 +80,7 @@ span{
     padding:10px;
     align-content:center;
     text-align:center;
+    border-radius: 30px;
 }
 .story{
     padding:10px;
@@ -72,6 +93,7 @@ span{
     text-align:center;
     font-family: "Mountains of Christmas", cursive;
     font-size:xx-large;
+    color: maroon;
 }
 .psycho{
     opacity: 0.4;
@@ -90,4 +112,7 @@ span{
     justify-content: center;
     align-content:center;
     text-align:center;
+}
+.xyz:hover{
+    border: 1px solid red;
 }

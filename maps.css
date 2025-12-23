@@ -10,9 +10,6 @@
     height: 267px;
     transition: all 1s ease-in-out;
 }
-.darkforest p{
-    opacity: 0;
-}
 .memorycorridor{
     height: 267px;
     transition: all 1s ease-in-out;
@@ -52,43 +49,43 @@
 /* this is a seperation comment */
 
 .darkforest:hover{
-    height: 500px;
-    transform: scale(1.1);
+    border: 1px solid red;
+    transform: translateY(-20px);
 }
 .darkforest:hover p{
     opacity: 1;
 }
 .memorycorridor:hover{
-    height: 500px;
-    transform: scale(1.1);
+    border: 1px solid red;
+    transform: translateY(-20px);
 }
 .memorycorridor:hover p{
     opacity: 1;
 }
 .oldchurch:hover{
     height: 500px;
-    transform: scale(1.1);
+    transform: translateY(-20px);
 }
 .oldchurch:hover p{
     opacity: 1;
 }
 .abandonedfactory:hover{
     height: 500px;
-    transform: scale(1.1);
+    transform: translateY(-20px);
 }
 .abandonedfactory:hover p{
     opacity: 1;
 }
 .ritualgrounds:hover{
     height: 500px;
-    transform: scale(1.1);
+    transform: translateY(-20px);
 }
 .ritualgrounds:hover p{
     opacity: 1;
 }
 .lighthouse:hover{
     height: 500px;
-    transform: scale(1.1);
+    transform: translateY(-20px);
 }
 .lighthouse:hover p{
     opacity: 1;
