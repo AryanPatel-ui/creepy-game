@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        pre{
+            color: white;
+            font-size: larger;
+        }
+        .typewriter{
+            /* display: inline-block; */
+            width: 0;
+            overflow: hidden;
+            /* border-right: 2px solid rgb(255, 255, 255); */
+            margin: 0;
+            animation: typing 4s steps(30) forwards;
+        }
+        @keyframes typing {
+            from { width: 0px }
+            to { width: 20% }
+        }
+        .a{
+            overflow: hidden;
+            animation-delay: 3s;
+        }
+        .b{
+            animation-delay: 5s;
+        }
+        .c{
+            animation-delay: 7s;
+        }
+        .d{
+            animation-delay: 10s;
+        }
+        button{
+            background-color: black;
+            color: white;
+            width: 100px;
+            height: 50px;
+            border: 1px solid rgb(255, 255, 255);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div>
+            <pre>sorry we are not available in your country</pre>
+        </div>
+        <div>
+            <pre class="typewriter a">but wait!!!</pre>
+            <pre class="typewriter b">enter silently</pre>
+            <pre class="typewriter c">just dont let him know</pre>
+            <pre class="typewriter d"><a href="entry.html"><button>enter</button></a></pre>
+        </div>
+    </div>
+
+</body>
+</html>
