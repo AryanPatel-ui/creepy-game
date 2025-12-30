@@ -22,13 +22,16 @@
         .body1 {
             display: inline-block;
             text-align: center;
-            animation: float 3.5s linear infinite;
+            animation: beat 3s linear infinite;
             font-family: "Mountains of Christmas", cursive;
         }
 
-        @keyframes float {
+        @keyframes beat {
             0%{ 
                 transform: translate(0); 
+                transform: scale(1);
+            }
+            5%{
                 transform: scale(1);
             }
             10%{
@@ -100,6 +103,7 @@
             height: 50px;
             font-size: large;
             font-family: "Mountains of Christmas", cursive;
+            border: 1px solid black;
         }
     </style>
 </head>
